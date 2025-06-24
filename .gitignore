@@ -1,0 +1,57 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.env/
+.venv/
+venv/
+ENV/
+
+# Environment variables and secrets
+.env
+*.env
+*.key
+*.pem
+*.crt
+secrets.*
+credentials.*
+*aws*
+*key*
+*secret*
+
+# Airflow
+airflow.db
+logs/
+unittests.cfg
+*.log
+.airflowignore
+
+# Snowflake config (if any local credentials)
+*.snowflake
+
+# Docker
+.dockerignore
+.docker/
+docker-compose.override.yml
+
+# VSCode/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+include/data/earthquake-10-year-data.jsonl
+
+# Airflow settings
+airflow_settings.yaml
+
+# Hide the tests folder
+tests/
+
+
