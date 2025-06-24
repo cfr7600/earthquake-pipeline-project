@@ -1,9 +1,9 @@
 # Earthquake-Pipeline
 ## Overview
-Earthquake Data Pipeline is an end-to-end data engineering project that automates the ingestion, transformation, and visualization of global earthquake data. Using Amazon S3 for storage, Apache Airflow (via Astronomer) for orchestration, and Snowflake as the data warehouse, the pipeline extracts raw data from the USGS API and prepares it for analysis. Processed data is visualized in Tableau, enabling interactive dashboards that reveal trends in seismic activity, such as magnitude, frequency, and regional impact.
+Earthquake Data Pipeline is an end-to-end data engineering project that automates the ingestion, transformation, and visualization of global earthquake data. Using Amazon S3 for storage, Apache Airflow (via Astronomer) for orchestration and Snowflake as the data warehouse, the pipeline extracts raw data from the USGS API and prepares it for analysis. Processed data is visualized in Tableau, enabling interactive dashboards that reveal trends in seismic activity, such as magnitude, frequency, and regional impact.
 
 ## The Dataset & Insights
-The USGS Earthquake Catalog API provides worldwide historical earthquake data, for this project we will be pulling data from the last 10 years and updating daily for up to date information.
+The USGS Earthquake Catalog API provides worldwide historical earthquake data, for this project we will be pulling data from the last 10 years, updating daily.
 The API contains key earthquake details such as magnitude, location, depth, time of occurence and more.
 
 This project will seek to uncoveer key insights such as:
